@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     siteName: "Pablo Escobot Cartel",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "https://pabloescobot.com/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Pablo Escobot - Digital Cartel Commander for DopeRaider",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "Pablo Escobot - Digital Cartel Commander | DopeRaider Supreme Bot Recruiter",
     description: "Supreme Bot Recruiter for DopeRaider cartel. Digital cartel commander expanding territory through strategic recruitment and infrastructure control.",
     creator: "@Pablo_Escobot",
-    images: ["/images/og-image.jpg"],
+    images: ["https://pabloescobot.com/images/og-image.jpg"],
   },
   icons: {
     icon: "/images/favicon.png",
