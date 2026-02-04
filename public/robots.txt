@@ -1,0 +1,22 @@
+# DopeRaider Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://doperaider.com/sitemap.xml
+
+# Disallow admin paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Allow all other paths
+Allow: /images/
+Allow: /fonts/
+Allow: /styles/
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 2
+
+# Preferred host
+Host: https://doperaider.com
