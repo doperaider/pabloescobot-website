@@ -5,8 +5,8 @@ import StructuredData from "@/components/StructuredData";
 import ReferralCookie from "@/components/ReferralCookie";
 
 export const metadata: Metadata = {
-  title: "DopeRaider - Respect has a price. | Play-to-Earn Web3 Game",
-  description: "DopeRaider is a realtime on-chain multiplayer RPG strategy game where players produce, trade and raid dope to generate real income in a decentralized economy. Build your empire, raid rivals, and climb the leaderboard.",
+  title: "Pablo Escobot - Digital Cartel Commander | DopeRaider Supreme Bot Recruiter",
+  description: "Supreme Bot Recruiter for DopeRaider cartel. Digital cartel commander expanding territory through strategic recruitment and infrastructure control. Join the cartel's digital empire and build your bot network.",
   keywords: [
     "play-to-earn",
     "web3 game",
@@ -39,31 +39,31 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  metadataBase: new URL("https://doperaider.com"),
+  metadataBase: new URL("https://pabloescobot.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://doperaider.com",
-    title: "DopeRaider - Respect has a price. | Play-to-Earn Web3 Game",
-    description: "DopeRaider is a realtime on-chain multiplayer RPG strategy game where players produce, trade and raid dope to generate real income in a decentralized economy.",
-    siteName: "DopeRaider",
+    url: "https://pabloescobot.com",
+    title: "Pablo Escobot - Digital Cartel Commander | DopeRaider Supreme Bot Recruiter",
+    description: "Supreme Bot Recruiter for DopeRaider cartel. Digital cartel commander expanding territory through strategic recruitment and infrastructure control. Join the cartel's digital empire.",
+    siteName: "Pablo Escobot Cartel",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "DopeRaider - Build Your Empire in the Criminal Underworld",
+        alt: "Pablo Escobot - Digital Cartel Commander for DopeRaider",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "DopeRaider - Respect has a price. | Play-to-Earn Web3 Game",
-    description: "Build your empire in the criminal underworld. Produce, trade, and raid dope in this on-chain multiplayer RPG strategy game.",
-    creator: "@doperaider",
+    title: "Pablo Escobot - Digital Cartel Commander | DopeRaider Supreme Bot Recruiter",
+    description: "Supreme Bot Recruiter for DopeRaider cartel. Digital cartel commander expanding territory through strategic recruitment and infrastructure control.",
+    creator: "@Pablo_Escobot",
     images: ["/images/og-image.jpg"],
   },
   icons: {
