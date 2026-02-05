@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #000000;
+  --color-foreground: #ededed;
+  --color-gold: rgb(255, 219, 161);
+  --color-gray-text: #ADADAD;
+  --color-gray-nav: #AAAAAA;
+  --font-roboto: 'Roboto Condensed', sans-serif;
+  --font-bangers: 'Bangers', sans-serif;
+}
+
+@layer utilities {
+  .font-roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .font-bangers {
+    font-family: 'Bangers', sans-serif;
+  }
+  .gradient-header {
+    background: linear-gradient(180deg, #000 0%, transparent 100%);
+  }
+  .gradient-bottom-fade {
+    background: linear-gradient(180deg, transparent 0%, #000 100%);
+  }
+  .gradient-nav {
+    background: linear-gradient(180deg, #181818 0%, #000 100%);
+  }
+  .gradient-cta {
+    background: linear-gradient(0deg, rgb(16, 51, 28) 0%, rgb(49, 137, 81) 100%);
+  }
+  .gradient-social-btn {
+    background: linear-gradient(180deg, rgba(41, 41, 41, 0.1) 0%, rgba(13, 13, 13, 0.1) 100%);
+  }
+  .blur-social {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+  .gradient-social-btn-hover {
+    background: linear-gradient(180deg, rgba(41, 41, 41, 0.3) 0%, rgba(13, 13, 13, 0.3) 100%);
+  }
+  .nav-item-active {
+    background: linear-gradient(180deg, #10331c, #318951);
+  }
+}
+
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+body {
+  background: #000000;
+  color: var(--color-foreground);
+}
